@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch RxJs</title>
+</head>
+<style>
+  .wrapper {
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid #000;
+  }
+  
+  .digitsWrapper {
+    font-size: 25px;
+  }
+  
+  .btnsWrapper button {
+    margin:10px;
+    width: 60px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #4dece4a1;
+    border:1px solid #000;
+    border-radius: 10px;
+  }
+</style>
+<body>
+  <div class="wrapper">
+    <div class="container">
+    <div class="digitsWrapper">
+        <span id="time">Time: 00:00:00</span>
+    </div>
+    
+    <div class="btnsWrapper">
+        <button id="startStopwatch">Start</button>
+        <button id="finishStopwatch">Stop</button>
+        <button id="waitingStopwatch">Wait</button>
+        <button id="resetStopwatch">Reset</button>
+    </div>
+
+    </div>
+</div>
+</body>
+</html>
